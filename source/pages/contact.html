@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Muchammad Fachri Syakur</title>
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portofolio Muchammad Fachri Syakur - Web Developer pemula yang sedang belajar di WEB PROGRAMING UNPAS."
+    />
+    <meta
+      name="keywords"
+      content="Muchammad Fachri Syakur, Web Developer, Portofolio, HTML, CSS, Bootstrap"
+    />
+    <meta name="author" content="Muchammad Fachri Syakur" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:title" content="Portofolio Muchammad Fachri Syakur" />
+    <meta
+      name="description"
+      content="Hubungi Muchammad Fachri Syakur - Web Developer pemula yang belajar di WEB PROGRAMMING UNPAS. Kirim pesan untuk kolaborasi atau diskusi proyek!"
+    />
+
+    <meta
+      property="og:image"
+      content="https://MuchammadFachriSyakur.github.io/Portofolio1-V2/source/images/logo/logoGithub.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://MuchammadFachriSyakur.github.io/Portofolio1-V2"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portofolio Muchammad Fachri Syakur" />
+    <meta
+      name="twitter:description"
+      content="Portofolio pribadi yang menunjukkan keterampilan dan pengalaman dalam pengembangan web."
+    />
+    <meta
+      name="twitter:image"
+      content="https://MuchammadFachriSyakur.github.io/Portofolio1-V2/source/images/logo/logoGithub.jpg"
+    />
+
+    <!-- Favicon & Manifest -->
+    <link rel="icon" type="image/x-icon" href="../images/logo/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../images/logo/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/logo/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../images/logo/apple-touch-icon.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="../images/logo/logoGithub.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="apple-mobile-web-app-title" content="Portofolio1-V2" />
+    <link rel="manifest" href="/source/images/logo/site.webmanifest" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Muchammad Fachri Syakur",
+        "jobTitle": "Web Developer",
+        "url": "https://MuchammadFachriSyakur.github.io/Portofolio1-V2",
+        "sameAs": [
+          "https://www.linkedin.com/in/username",
+          "https://github.com/MuchammadFachriSyakur"
+        ],
+        "description": "Portofolio Muchammad Fachri Syakur - Web Developer pemula yang sedang belajar di WEB PROGRAMING UNPAS."
+      }
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <ul>
+        <li><a href="../../index.html" class="active">Home</a></li>
+        <li><a href="../cv.pdf">Download CV</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="grid1">
+        <h1>Contact</h1>
+        <form class="form_message">
+          <label for="">
+            <p>Nama:</p>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Masukan Nama"
+              required
+            />
+          </label>
+          <label for="">
+            <p>Message:</p>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Masukan Pesan"
+              required
+            ></textarea>
+          </label>
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <h5>
+        Copyright <span id="year-range"></span> &#169; Muchammad Fachri Syakur
+      </h5>
+    </footer>
+
+    <script>
+      function validateForm(event) {
+        event.preventDefault();
+        var name = document.getElementById("username").value.trim();
+        var message = document.getElementById("message").value.trim();
+        if (name === "" || message === "") {
+          alert("Harap isi semua kolom sebelum mengirim pesan!");
+          return false;
+        }
+        document.getElementById("successMessage").style.display = "block";
+        return true;
+      }
+    </script>
+    <script src="../js/footerYears.js"></script>
+  </body>
+</html>

@@ -1,64 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muchammad Fachri Syakur || Portofolio1-V2</title>
-    <link rel="stylesheet" href="source/css/update.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-     <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-  <header class="header">
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="source/cv.pdf">Download CV</a></li>
-      <li><a href="About.html">About</a></li>
-      <li><a href="">Contact me</a></li>
-    </ul>
-  </header>
-  <div class="container">
-    <img src="" alt="" class="fotoprofile">
-    <h2 class="nama">MUCHAMMAD FACHRI <span class="akhir">SYAKUR</span></h2>
-    <hr>
-    <p class="description">
-      Hi, saya adalah web developer saat ini sedang belajar diWEB PROGRAMING UNPAS.
-    </p>
-    <div class="kemampuan">
-     <table>
-      <thead>
+    <link rel="stylesheet" href="source/css/update.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portofolio Muchammad Fachri Syakur - Web Developer pemula yang sedang belajar di WEB PROGRAMING UNPAS."
+    />
+    <meta
+      name="keywords"
+      content="Muchammad Fachri Syakur, Web Developer, Portofolio, HTML, CSS, Bootstrap"
+    />
+    <meta name="author" content="Muchammad Fachri Syakur" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:title" content="Portofolio Muchammad Fachri Syakur" />
+    <meta
+      property="og:description"
+      content="Portofolio pribadi yang menunjukkan keterampilan dan pengalaman dalam pengembangan web."
+    />
+    <meta
+      property="og:image"
+      content="https://MuchammadFachriSyakur.github.io/Portofolio1-V2/source/images/logo/logoGithub.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://MuchammadFachriSyakur.github.io/Portofolio1-V2"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portofolio Muchammad Fachri Syakur" />
+    <meta
+      name="twitter:description"
+      content="Portofolio pribadi yang menunjukkan keterampilan dan pengalaman dalam pengembangan web."
+    />
+    <meta
+      name="twitter:image"
+      content="https://MuchammadFachriSyakur.github.io/Portofolio1-V2/source/images/logo/logoGithub.jpg"
+    />
+
+    <!-- Favicon & Manifest -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="source/images/logo/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="source/images/logo/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="source/images/logo/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="source/images/logo/apple-touch-icon.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="source/images/logo/logoGithub.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="apple-mobile-web-app-title" content="Portofolio1-V2" />
+    <link rel="manifest" href="/source/images/site.webmanifest" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Muchammad Fachri Syakur",
+        "jobTitle": "Web Developer",
+        "url": "https://MuchammadFachriSyakur.github.io/Portofolio1-V2",
+        "sameAs": [
+          "https://www.linkedin.com/in/username",
+          "https://github.com/MuchammadFachriSyakur"
+        ],
+        "description": "Portofolio Muchammad Fachri Syakur - Web Developer pemula yang sedang belajar di WEB PROGRAMING UNPAS."
+      }
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="source/cv.pdf">Download CV</a></li>
+        <li><a href="source/pages/About.html">About</a></li>
+        <li><a href="source/pages/contact.html">Contact me</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <img
+        src="source/images/logo/logoGithub.webp"
+        alt="Logo Photo Profile"
+        class="fotoprofile"
+      />
+      <h1 class="nama">MUCHAMMAD FACHRI <span class="akhir">SYAKUR</span></h1>
+      <hr />
+      <p class="description">
+        Hi, saya adalah web developer saat ini sedang belajar diWEB PROGRAMING
+        UNPAS.
+      </p>
+      <div class="kemampuan">
+        <table>
+          <thead>
             <tr>
-               <th>SKILLS</th>
-               <th>Pengalaman</th>
+              <th>SKILLS</th>
+              <th>Pengalaman</th>
             </tr>
           </thead>
-      <tbody>
-        <tr>
-          <td>
-            <ul style="list-style-type: none;">
-                        <li>Html (Pemula)</li>
-                        <li>CSS (Pemula)</li>
-                        <li>Bootstrap (Pemula)</li>
-                    </ul>
-                </td>
-          <td>
-            <ul style="list-style-type: none;">
-                        <li>Pernah HOSTING website</li>
-                        <li>Pernah Buat WEBSITE html css</li>
-                        <li></li>
-                    </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          <tbody>
+            <tr>
+              <td>
+                <ul style="list-style-type: none">
+                  <li>Html (Beginner)</li>
+                  <li>CSS (Beginner)</li>
+                  <li>Bootstrap (Beginner)</li>
+                </ul>
+              </td>
+              <td>
+                <ul style="list-style-type: none">
+                  <li>Pernah HOSTING website</li>
+                  <li>Pernah Buat WEBSITE html css</li>
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="footer">
-   <H5>Copyright 2023 	&#169; Muchammad Fachri Syakur</H5>
-  </div>
-</body>
+    <footer class="footer">
+      <h5>
+        Copyright <span id="year-range"></span> &#169; Muchammad Fachri Syakur
+      </h5>
+    </footer>
+
+    <script src="source/js/footerYears.js"></script>
+  </body>
 </html>
