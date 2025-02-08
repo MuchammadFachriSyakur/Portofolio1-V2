@@ -38,16 +38,7 @@ Ini adalah website portofolio pribadi yang menunjukkan keterampilan dan pengalam
 Jika menggunakan VS Code, bisa install ekstensi Live Server, lalu klik "Go Live".
 
 ## 📂 Struktur Proyek
-Portofolio1-V2/ 
-│── source/
-│   ├── images/  # Gambar dan logo
-│   ├── css/     # File CSS
-│   ├── js/      # Script JavaScript
-│── index.html   # Halaman utama
-│── about.html   # Halaman tentang saya
-│── contact.html # Halaman kontak
-│── cv.pdf       # File CV saya
-│── README.md    # Dokumentasi proyek ini
+Portofolio1-V2/ │── source/ │ ├── images/ # Gambar dan logo │ ├── css/ # File CSS │ ├── js/ # Script JavaScript │── index.html # Halaman utama │── about.html # Halaman tentang saya │── contact.html # Halaman kontak │── cv.pdf # File CV saya │── README.md # Dokumentasi proyek ini
 
 ## 📩 Kontak Saya
 📧 Email: [muchammadfachrisyakurdev@gmail.com](mailto:muchammadfachrisyakurdev@gmail.com)  
